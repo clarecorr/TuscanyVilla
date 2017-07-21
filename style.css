@@ -1,1 +1,17 @@
-﻿
+﻿/*NAVBAR STYLING*/
+#navvy {
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px;
+}
+.navbar-brand {
+    padding-left:40px;
+}
+div.container-fluid {
+    background-color: #474E5D;
+    margin-left:0px;
+}
+
+#navvy a {
+    color: #E4EFF0;
+}
