@@ -32,13 +32,23 @@ div.container-fluid {
     border: 0px;
 }
 
-#tuscanyvilla {
+#villa {
     background-image: url('images/tuscany-villas-sant-anna.jpg');
-    background-size: cover;   
-    height:400px;
+    background-size: cover;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(251,251,253);
 }
+
 #map {
     background-image: url('images/turquoise map.jpg');
     background-size: cover;
-    height:400px;
+    height: 400px;
+    margin:0px;
+    border:0px;
+    padding:0px;
 }
