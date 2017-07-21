@@ -52,3 +52,24 @@ div.container-fluid {
     border:0px;
     padding:0px;
 }
+
+/*LOCATIONS STYLING*/
+.gray {
+    text-align: center;
+    background-color: #474E5D;
+    color: rgb(255,255,255);
+    height: 200px;
+    margin:0px;
+    border:0px;
+    padding:0px;
+    font-family: 'Raleway', sans-serif;
+}
+h2 {
+    margin: 0;
+    padding-top:75px;
+    font-weight: 300;
+    font-size:250%
+}
+h4 {
+    font-size: 150%;
+}
