@@ -1,17 +1,44 @@
-﻿/*NAVBAR STYLING*/
+﻿/*GENERAL STYLING*/
+img {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/*NAVBAR STYLING*/
 #navvy {
     border: none;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 5px;
+    margin-bottom: 0px;
 }
+
 .navbar-brand {
-    padding-left:40px;
+    padding-left: 40px;
 }
+
 div.container-fluid {
     background-color: #474E5D;
-    margin-left:0px;
+    margin-left: 0px;
 }
 
 #navvy a {
     color: #E4EFF0;
+}
+/*HEADER STYLING*/
+
+.jumbo {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#tuscanyvilla {
+    background-image: url('images/tuscany-villas-sant-anna.jpg');
+    background-size: cover;   
+    height:400px;
+}
+#map {
+    background-image: url('images/turquoise map.jpg');
+    background-size: cover;
+    height:400px;
 }
