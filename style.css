@@ -132,16 +132,34 @@ div.container-fluid {
     padding: 0px;
     height: 600px;
 }
+#row2 {
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 600px;
+}
+#row3 {
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 90px;
+    padding: 0px;
+    height: 600px;
+}
 
 .overlayBox {
     
-    padding-top: 225px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 600px;
 
 }
 #poolNight {
     background-image: url('images/pool night.jpg');
     background-size: cover;
-    height: 500px;
+    height: 600px;
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -152,7 +170,40 @@ div.container-fluid {
 #poolDay {
     background-image: url('images/pool day.jpg');
     background-size: cover;
-    height: 500px;
+    height: 600px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(251,251,253);
+}
+#dining {
+    background-image: url(images/patio.jpg);
+    background-size: cover;
+    height: 600px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(251,251,253);
+}
+#dining2 {
+    background-image: url('images/outdoor dining.jpg');
+    background-size: cover;
+    height: 600px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(251,251,253);
+}
+#bedroom {
+    background-image: url('images/light bedroom.jpg');
+    background-size: cover;
+    height: 600px;
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -164,5 +215,5 @@ div.container-fluid {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     border: none;
-    padding-top: 75px;
+    padding: 0px;
 }
