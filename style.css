@@ -36,7 +36,7 @@ div.container-fluid {
     background-image: url('images/tuscany-villas-sant-anna.jpg');
     background-size: cover;
     height: 400px;
-    padding: 0px;
+    padding-top: 20px;
     margin: 0px;
     border: 0px;
     text-align:center;
@@ -64,27 +64,28 @@ div.container-fluid {
     padding:0px;
     font-family: 'Raleway', sans-serif;
 }
-.grayh2 {
+.grayLocationHead {
     margin: 0;
     padding-top:70px;
     font-weight: 300;
-    font-size:250%
+    font-size:275%
 }
-.grayh4 {
-    font-size: 150%;
+.grayLocationSubhead {
+    font-size: 175%;
 }
 .whiteLocation {
     text-align: left;
     background-color: rgb(255,255,255);
-    color: #474E5D;
+    color: rgb(106,106,106);
     height: 600px;
-    margin:0px;
+    margin: auto;
     border:0px;
     padding:60px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    
  }
 .locationPhoto {
+    margin: auto;
     padding:0px;
     height:auto;
     width:100%;
@@ -96,8 +97,20 @@ div.container-fluid {
     background-color:#474E5D;
     border-color: #474E5D;
     border-radius: 0px;
+    color:rgb(255,255,255) 
 }
 .btn-primary:hover {
     background-color: #474E5D;
     border-color: #474E5D;
 }
+.grayLocation {
+    text-align: left;
+    background-color: #474E5D;
+    color: rgb(255,255,255);
+    height: 600px;
+    margin:0px;
+    border:0px;
+    padding:60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+ }
