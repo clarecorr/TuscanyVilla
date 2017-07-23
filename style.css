@@ -132,6 +132,7 @@ div.container-fluid {
     padding: 0px;
     height: 600px;
 }
+
 #row2 {
     margin-top: 0px;
     margin-right: 30px;
@@ -140,6 +141,7 @@ div.container-fluid {
     padding: 0px;
     height: 600px;
 }
+
 #row3 {
     margin-top: 0px;
     margin-right: 30px;
@@ -150,12 +152,11 @@ div.container-fluid {
 }
 
 .overlayBox {
-    
     padding: 0px;
     margin: 0px;
     line-height: 600px;
-
 }
+
 #poolNight {
     background-image: url('images/pool night.jpg');
     background-size: cover;
@@ -167,6 +168,7 @@ div.container-fluid {
     font-family: 'Raleway', sans-serif;
     color: rgb(251,251,253);
 }
+
 #poolDay {
     background-image: url('images/pool day.jpg');
     background-size: cover;
@@ -178,6 +180,7 @@ div.container-fluid {
     font-family: 'Raleway', sans-serif;
     color: rgb(251,251,253);
 }
+
 #dining {
     background-image: url(images/patio.jpg);
     background-size: cover;
@@ -189,6 +192,7 @@ div.container-fluid {
     font-family: 'Raleway', sans-serif;
     color: rgb(251,251,253);
 }
+
 #dining2 {
     background-image: url('images/outdoor dining.jpg');
     background-size: cover;
@@ -200,6 +204,7 @@ div.container-fluid {
     font-family: 'Raleway', sans-serif;
     color: rgb(251,251,253);
 }
+
 #bedroom {
     background-image: url('images/light bedroom.jpg');
     background-size: cover;
@@ -211,9 +216,54 @@ div.container-fluid {
     font-family: 'Raleway', sans-serif;
     color: rgb(251,251,253);
 }
+
 .whiteBox {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     border: none;
     padding: 0px;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: #474E5D;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/*    Carousel Fade Transition   */
+
+
+#fade-quote-carousel.carousel {
+    padding-bottom: 60px;
+}
+
+#fade-quote-carousel.carousel .carousel-inner .item {
+    transition-property: opacity;
+
+}
+
+#fade-quote-carousel.carousel .carousel-inner .active {
+    transition-property: opacity;
+}
+
+#fade-quote-carousel.carousel .carousel-indicators {
+    bottom: 10px;
+}
+
+#fade-quote-carousel.carousel .carousel-indicators > li {
+    background-color: #474E5D;
+    border: none;
+}
+
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%
 }
